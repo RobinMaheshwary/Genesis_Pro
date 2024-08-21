@@ -1,0 +1,33 @@
+Objective : Create a dummy console application (WITHOUT GUI) in Java to simulate an Employee-Management portal
+to be used by an organization
+ 
+Expectation:
+ 
+1) The organization has full-time employees, interns & sub-contracted employees (fixed tenure employees
+who work with the organization for a particular project only)
+ 
+2) Interns are also sub-categorised as either Summer-Interns (2 months tenure) or Project-Interns (6 months tenure)
+ 
+3) All Interns are expected to 
+    a) request for unpaid leave
+    b) check TDS deductible on their stipend
+ 
+4) Project-Interns are expected to
+    a) request for unpaid leave
+    b) check TDS deductible on their stipend
+    c) check their full-time employment status (answer could be REJECTED, IN_PROGRESS or ACCEPTED)
+ 
+5) full-time employees are expected to
+    a) request for unpaid leave
+    b) request for paid leave
+    c) check income-tax applicable on their salary
+ 
+6) Employee data should be made up of following attributes
+    Name, Age, Salary, Department (should be categorical choices), AssignedProject(this is a separate class)
+ 
+7) Project data should be made up of following attributes
+    ProjectName, ProjectTeamSize
+ 
+8) You can select your own attributes for Interns and its sub-categories
+ 
+Develop this code using SOLID principles as applicable
