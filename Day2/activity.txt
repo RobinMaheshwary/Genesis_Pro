@@ -1,0 +1,16 @@
+Objective : Install third party libraries into your project setup to complete tasks
+Expectations : Gaining hands-on experience of installing libraries in a Java-based project. 
+				Utilizing IDE features to complete the task.
+ 
+Use a CSV parser [example opencsv] to read CAR_DETAILS_DATA.csv. Then, perform necessary processing to answer the following queries [Create a separate class method for each of the below queries]
+ 
+1) Number of data points (rows) and number of attributes (columns) in the dataset
+2) Find number of cars for each category of transmission - Manual or Automatic
+3) Find the average, minimum and maximum selling price.
+4) Show details of a Car unit based on model name provided as input
+5) Find count of vehicles for each value of year columns. Hint: Find number of vehicle models released each in the year
+   2007, 2012, etc
+ 
+ 
+- Execute each functionality in a separate thread (to achieve concurrency)
+- Demonstrate each functionality using a suitable main() function
